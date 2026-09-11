@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Торцевые уплотнения для буровых насосов | Высокая износостойкость</title>
+    <style>
+        :root {
+            --bg-main: #12161a;
+            --bg-card: #1a2126;
+            --accent: #007bff;
+            --accent-hover: #0056b3;
+            --text-main: #ffffff;
+            --text-muted: #94a3b8;
+            --border: #2d3748;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+        }
+
+        body {
+            background-color: var(--bg-main);
+            color: var(--text-main);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            border-bottom: 1px solid var(--border);
+            padding: 20px 0;
+            background: rgba(18, 22, 26, 0.8);
+            backdrop-filter: blur(10px);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-flex {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-weight: 800;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            color: #fff;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .phone {
+            font-weight: 600;
+            text-decoration: none;
+            color: var(--text-main);
+            font-size: 1.1rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 80px 0;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            align-items: center;
+        }
+
+        @media (max-width: 768px) {
+            .hero {
+                grid-template-columns: 1fr;
+                text-align: center;
+                padding: 40px 0;
+            }
+        }
+
+        .hero-title {
+            font-size: 2.8rem;
+            line-height: 1.2;
+            margin-bottom: 20px;
+            font-weight: 800;
+        }
+
+        .hero-subtitle {
+            color: var(--text-muted);
+            font-size: 1.2rem;
+            margin-bottom: 30px;
+        }
+
+        .btn {
+            display: inline-block;
+            background-color: var(--accent);
+            color: #fff;
+            padding: 15px 35px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: 600;
+            transition: background 0.2s;
+            border: none;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn:hover {
+            background-color: var(--accent-hover);
+        }
+
+        .product-image-placeholder {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            border: 2px dashed var(--border);
+            border-radius: 12px;
+            height: 350px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: var(--text-muted);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .product-image-placeholder::before {
+            content: "⚙️";
+            font-size: 5rem;
+            opacity: 0.2;
+        }
+
+        /* Specs Section */
+        .specs {
+            padding: 60px 0;
+            background-color: var(--bg-card);
+            border-top: 1px solid var(--border);
+            border-bottom: 1px solid var(--border);
+        }
+
+        .section-title {
+            font-size: 2rem;
+            margin-bottom: 40px;
+            text-align: center;
+            font-weight: 700;
+        }
+
+        .specs-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            background: var(--bg-main);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .specs-table th, .specs-table td {
+            padding: 15px 20px;
+            text-align: left;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .specs-table th {
+            background-color: #242f38;
+            color: var(--text-main);
+            font-weight: 600;
+        }
+
+        .specs-table tr:last-child td {
+            border-bottom: none;
+        }
+
+        /* CTA Section */
+        .cta {
+            padding: 80px 0;
+            text-align: center;
+        }
+
+        .cta-box {
+            background: linear-gradient(135deg, #1a2126 0%, #12161a 100%);
+            border: 1px solid var(--border);
+            padding: 50px;
+            border-radius: 12px;
+        }
+
+        .cta h2 {
+            font-size: 2.2rem;
+            margin-bottom: 15px;
+        }
+
+        .cta p {
+            color: var(--text-muted);
+            margin-bottom: 30px;
+            font-size: 1.1rem;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px 0;
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            border-top: 1px solid var(--border);
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="container header-flex">
+            <div class="logo">MUD<span>SEALS</span></div>
+            <a href="tel:+79991112233" class="phone">+7 (999) 111-22-33</a>
+        </div>
+    </header>
+
+    <section class="container hero">
+        <div>
+            <h1 class="hero-title">Торцевые уплотнения для буровых насосов</h1>
+            <p class="hero-subtitle">Высокотехнологичные уплотнительные системы для отечественных и зарубежных буровых насосов (НБ, УНБ, серии F). Максимальный ресурс в условиях абразивного бурового раствора.</p>
+            <a href="https://t.me" target="_blank" class="btn">Запросить прайс и чертеж</a>
+        </div>
+        <div class="product-image-placeholder">
+            <!-- Сюда позже можно загрузить реальное фото уплотнения -->
+            <span style="position: absolute; bottom: 15px; font-size: 0.85rem;">[ Место для фото уплотнения ]</span>
+        </div>
+    </section>
+
+    <section class="specs">
+        <div class="container">
+            <h2 class="section-title">Технические характеристики и применимость</h2>
+            <table class="specs-table">
+                <thead>
+                    <tr>
+                        <th>Параметр</th>
+                        <th>Значение / Описание</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Совместимость с насосами</strong></td>
+                        <td>НБ-32, НБ-50, УНБ-600, УНБТ-950, серии F (Gardner Denver, Continental Emsco)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Материалы пар трения</strong></td>
+                        <td>Карбид вольфрама / Карбид вольфрама, Карбид кремния</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Вторичное уплотнение</strong></td>
+                        <td>Эластомеры Viton (FKM), HNBR (высокотемпературный нитрил)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Рабочее давление</strong></td>
+                        <td>до 35 МПа (350 бар)</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Температура среды</strong></td>
+                        <td>от -20°C до +150°C</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <section class="container cta">
+        <div class="cta-box">
+            <h2>Нужна консультация или подбор по размерам?</h2>
+            <p>Отправьте нам марку вашего насоса или чертеж. Подготовим коммерческое предложение за 30 минут.</p>
+            <!-- Ссылку ниже замените на свой Telegram или WhatsApp -->
+            <a href="https://t.me" target="_blank" class="btn">Связаться в Telegram</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 MUDSEALS. Промышленные уплотнительные системы. Все права защищены.</p>
+        </div>
+    </footer>
+
+</body>
+</html>
